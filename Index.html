@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex">
+    <div class="wrapper">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1 class="quiz-title">Quiz Game</h1>
+                <div class="quiz-score flex">
+                    <span id="correct-score">0</span>/<span id="total-question">10</span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question"><!---What country has the highest life expectancy?<br> <span class="category">General Knowlege</span>---></h2>
+                <ul class="quiz-options">
+                    <!--<li>1. United States</li>
+                    <li>2. Hong Kong</li>
+                    <li>3. Belgium</li>
+                    <li>4. Australia </li>-->
+                </ul>
+                <div id="result"></div>
+            </div>
+            <div class="quiz-foot">
+                <button type="button" id="check-answer">Check Answer</button>
+                <button type="button" id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
